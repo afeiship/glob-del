@@ -13,8 +13,9 @@ npm install -S @feizheng/glob-del
 
 ## usage
 ```js
-import globDel from '@feizheng/glob-del';
+import del from '@feizheng/glob-del';
 
+del(['**', '!.git']);
 // https://github.com/sindresorhus/del
 ```
 
